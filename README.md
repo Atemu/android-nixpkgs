@@ -19,7 +19,7 @@ If you're using stable Nix (2.3 or earlier), a Nix channel is provided which con
 `beta`, `preview`, and `canary` releases of the Android SDK package set.
 
 ```sh
-nix-channel --add android https://tadfisher.github.io/android-nixpkgs
+nix-channel --add https://tadfisher.github.io/android-nixpkgs android
 nix-channel --update android
 ```
 
